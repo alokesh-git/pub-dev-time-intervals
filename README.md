@@ -1,6 +1,3 @@
-# pub-dev-time-intervals
-
-
 <!--
 This README describes the package. If you publish this package to pub.dev,
 this README's contents appear on the landing page for your package.
@@ -41,22 +38,22 @@ means it can create a gap nof time or break the time in small time intervals.
 ## Usage
 
 ```dart
-List<Map<String,TimeOfDay>>? timing;
+List<Map<String,Time>>? timing;
  
   // --- Services timing ---
-   TimeOfDay _openingTime = const TimeOfDay(
+   Time _openingTime = const Time(
     hour: 08,
     minute: 00,
   );
-  TimeOfDay _closingTime = const TimeOfDay(
+  Time _closingTime = const Time(
     hour: 16,
     minute: 00,
   );
-  TimeOfDay _lunchTimeTo = const TimeOfDay(
+  Time _lunchTimeTo = const Time(
     hour: 14,
     minute: 00,
   );
-  TimeOfDay _lunchTimeFrom = const TimeOfDay(
+  Time _lunchTimeFrom = const Time(
     hour: 13,
     minute: 00,
   );
